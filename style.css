@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    background: url("./img.png");
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.headera{
+    float: left;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-top: 40px;
+    padding: 5px;
+}
+.headera li + li {
+    margin-left: 30px;
+}
+.headera a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.headera a:hover{
+    color: yellow;
+}
+.headera ul{
+    display: flex;
+    flex-direction: row;
+}
